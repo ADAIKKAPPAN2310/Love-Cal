@@ -39,7 +39,7 @@ function calculateLove() {
         document.getElementById("result").innerText = "Love Score: 74% ❤️";
     }
     else if(c==17){
-        document.getElementById("result").innerText = "Love Score: 77% ❤️";
+        document.getElementById("result").innerText = "Love Score: 100% ❤️";
     }
     else if(c==18){
         document.getElementById("result").innerText = "Love Score: 83% ❤️🌹";
@@ -60,13 +60,13 @@ function calculateLove() {
         document.getElementById("result").innerText = "Love Score: 89% ❤️";
     }
     else if(c==24){
-        document.getElementById("result").innerText = "Love Score: 100% 💝";
+        document.getElementById("result").innerText = "Love Score: 21% 💝";
     }
     else if(c==25){
         document.getElementById("result").innerText = "Love Score: 76% ❤️";
     }
     else if(c==26){
-        document.getElementById("result").innerText = "Love Score: 85% ❤️";
+        document.getElementById("result").innerText = "Love Score: 99% ❤️";
     }
     else if(c==27){
         document.getElementById("result").innerText = "Love Score: 89% ❤️";
