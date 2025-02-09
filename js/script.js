@@ -24,13 +24,13 @@ function calculateLove() {
         document.getElementById("result").innerText = "Love Score: 29% ❤️";
     }
     else if(c==12){
-        document.getElementById("result").innerText = "Love Score: 90% ❤️";
+        document.getElementById("result").innerText = "Love Score: 90% ❤️💋";
     }
     else if(c==13){
         document.getElementById("result").innerText = "Love Score: 89% ❤️";
     }
     else if(c==14){
-        document.getElementById("result").innerText = "Love Score:93% ❤️";
+        document.getElementById("result").innerText = "Love Score:93% ❤️😊";
     }
     else if(c==15){
         document.getElementById("result").innerText = "Love Score: 69% ❤️";
@@ -42,7 +42,7 @@ function calculateLove() {
         document.getElementById("result").innerText = "Love Score: 77% ❤️";
     }
     else if(c==18){
-        document.getElementById("result").innerText = "Love Score: 83% ❤️";
+        document.getElementById("result").innerText = "Love Score: 83% ❤️🌹";
     }
     else if(c==19){
         document.getElementById("result").innerText = "Love Score: 50% ❤️";
@@ -51,16 +51,16 @@ function calculateLove() {
         document.getElementById("result").innerText = "Love Score: 41% ❤️";
     }
     else if(c==21){
-        document.getElementById("result").innerText = "Love Score: 96% ❤️";
+        document.getElementById("result").innerText = "Love Score: 96% 💞💖";
     }
     else if(c==22){
-        document.getElementById("result").innerText = "Love Score: 74% ❤️";
+        document.getElementById("result").innerText = "Love Score: 74% 💟";
     }
     else if(c==23){
         document.getElementById("result").innerText = "Love Score: 89% ❤️";
     }
     else if(c==24){
-        document.getElementById("result").innerText = "Love Score: 100% ❤️";
+        document.getElementById("result").innerText = "Love Score: 100% 💝";
     }
     else if(c==25){
         document.getElementById("result").innerText = "Love Score: 76% ❤️";
@@ -72,7 +72,7 @@ function calculateLove() {
         document.getElementById("result").innerText = "Love Score: 89% ❤️";
     }
     else if(c==28){
-        document.getElementById("result").innerText = "Love Score: 94% ❤️";
+        document.getElementById("result").innerText = "Love Score: 94% 💟";
     }
     else if(c==29){
         document.getElementById("result").innerText = "Love Score: 34% ❤️";
