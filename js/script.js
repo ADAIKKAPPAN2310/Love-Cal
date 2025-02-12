@@ -6,8 +6,13 @@ function calculateLove() {
     var a = Name1.length;
     var b = Name2.length;
     var c = a + b;
+    let avoid=/^[a-zA-Z\s]+$/;
     if (name1 === "" || name2 === "") {
         document.getElementById("result").innerText = "Please enter both names!";
+        return;
+    }
+    if(!avoid.test(Name1)||!avoid.test(Name2)){
+        document.getElementById("result").innerText = "Enter correct name!";
         return;
     }
     if (c == 7) {
@@ -111,3 +116,20 @@ function calculateLove() {
 //     document.getElementById("result").innerText = "Happy Valetine's Day 💖";
 // }
 // document.getElementById("heartbeatloader").addEventListener("click", valentine);
+function createHeart() {
+    const heart = document.createElement("div");
+    heart.classList.add("heart");
+    heart.innerHTML = "❤️";
+    document.querySelector(".heart-container").appendChild(heart);
+
+    // Random position
+    heart.style.left = Math.random() * window.innerWidth + "px";
+    heart.style.animationDuration = Math.random() * 3 + 2 + "s"; // Different speeds
+
+    setTimeout(() => {
+        heart.remove();
+    }, 5000); // Remove after animation ends
+}
+
+// Create hearts every 300ms
+setInterval(createHeart, 300);
