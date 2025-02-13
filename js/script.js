@@ -112,10 +112,7 @@ function calculateLove() {
         document.getElementById("result").innerText = "You'are make for each other";
     }
 }
-// function valentine(){
-//     document.getElementById("result").innerText = "Happy Valetine's Day 💖";
-// }
-// document.getElementById("heartbeatloader").addEventListener("click", valentine);
+
 function createHeart() {
     const heart = document.createElement("div");
     heart.classList.add("heart");
@@ -133,3 +130,9 @@ function createHeart() {
 
 // Create hearts every 300ms
 setInterval(createHeart, 300);
+
+// Valentine's message
+function valentine(){
+    document.getElementById("result").innerText = "Happy Valetine's Day 💖";
+}
+document.getElementById("heartbeatloader").addEventListener("click", valentine);
