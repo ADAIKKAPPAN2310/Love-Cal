@@ -6,12 +6,12 @@ function calculateLove() {
     var a = Name1.length;
     var b = Name2.length;
     var c = a + b;
-    let avoid=/^[a-zA-Z\s]+$/;
+    let avoid = /^[a-zA-Z\s]+$/;
     if (name1 === "" || name2 === "") {
         document.getElementById("result").innerText = "Please enter both names!";
         return;
     }
-    if(!avoid.test(Name1)||!avoid.test(Name2)){
+    if (!avoid.test(Name1) || !avoid.test(Name2)) {
         document.getElementById("result").innerText = "Enter correct name!";
         return;
     }
@@ -131,8 +131,14 @@ function createHeart() {
 // Create hearts every 300ms
 setInterval(createHeart, 300);
 
-// Valentine's message
-// function valentine(){
-//     document.getElementById("result").innerText = "Happy Valetine's Day 💖";
-// }
-// document.getElementById("heartbeatloader").addEventListener("click", valentine);
+document.getElementById("share").addEventListener("click", async () => {
+    if (navigator.share) {
+        await navigator.share({
+            title: document.title,
+            url: window.location.href
+        });
+    }
+    else {
+        alert("Web share is not supported on this device.")
+    }
+});
