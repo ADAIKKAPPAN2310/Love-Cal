@@ -1,11 +1,11 @@
 function calculateLove() {
     let name1 = document.getElementById("name1").value.replace(/\s+/g, '').trim();
     let name2 = document.getElementById("name2").value.replace(/\s+/g, '').trim();
-    var Name1 = name1.toLowerCase();
-    var Name2 = name2.toLowerCase();
-    var a = Name1.length;
-    var b = Name2.length;
-    var c = a + b;
+    let Name1 = name1.toLowerCase();
+    let Name2 = name2.toLowerCase();
+    let a = Name1.length;
+    let b = Name2.length;
+    let c = a + b;
     let avoid = /^[a-zA-Z\s]+$/;
     if (name1 === "" || name2 === "") {
         document.getElementById("result").innerText = "Please enter both names!";
