@@ -18,27 +18,6 @@ function calculateLove() {
     if (c == 7) {
         document.getElementById("result").innerText = "Love Score: 66% ☺️";
     }
-    else if (Name1 == "suresh") {
-        document.getElementById("result").innerText = "Love Score: 100% 😘💞";
-    }
-    else if (Name1 == "chithiraikkani") {
-        document.getElementById("result").innerText = "Love Score: 99% 💓";
-    }
-    else if (Name1 == "gunaseelan") {
-        document.getElementById("result").innerText = "Love Score: 98% 💘";
-    }
-    else if (Name1 == "adhithyan") {
-        document.getElementById("result").innerText = "Love Score: 97% ❤️";
-    }
-    else if (Name1 == "abdulsarif") {
-        document.getElementById("result").innerText = "Love Score: 100% ❤️";
-    }
-    else if (Name1 == "arun") {
-        document.getElementById("result").innerText = "Love Score: 98% ❤️";
-    }
-    else if (Name1 == "balaji") {
-        document.getElementById("result").innerText = "Love Score: 100% ❤️";
-    }
     else if (c == 8) {
         document.getElementById("result").innerText = "Love Score: 47% ❤️";
     }
